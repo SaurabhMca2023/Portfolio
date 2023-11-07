@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:radial-gradient(#f90c71,#581935);
+    height: 100%;
+    width: 100%;
+}
+
+.navbar ul{
+   overflow: auto;
+
+}
+.navbar{
+    width: 1447px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: radial-gradient(#affcaf,#12dff3);
+}
+.navbar li{
+    float: left;
+    padding: 3px;
+    margin: 13px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li:hover{
+    transform: scale(1.2);
+    color: red;
+}
+.name{
+    font: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: -800px;
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    border: 1px solid ;
+    border-radius: 50%;
+    margin-left: 5px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-left: -5px;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    border: 5px solid none;
+    display: inline-block;
+    margin-top:80px;
+}
+
+.box2{
+    margin-left: 850px;
+}
+
+.image{
+    height: 400px;
+    width: 400px;
+    border: 5px solid none;
+    margin: 10% auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: aquamarine;
+    box-shadow: -10px -1px 20px mintcream;
+    
+} 
+
+.box2 img{
+    margin-top: px;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+}
+
+.msg{
+    margin-left: 120px;
+    margin-top: -400px;
+    text-decoration: 0px 0px 3px;
+    font-family:'Roboto', sans-serif ;
+    line-height: -10px;
+}
+
+.msg span{
+    color: yellow;
+}
+
+.msg p span{
+    color: white;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    border: solid rgb(30, 30, 121);
+    border-radius: 20px;
+    text-align: center;
+    line-height:1.5;
+    margin-left: 110px;
+    margin-top: 30px;
+    background-color: rgb(30, 30, 121);
+    color: white;
+}
+
+.button:hover{
+    transform: scale(.98);
+}
+
+.media{
+    height: 40px;
+    width: 40px;
+    border: 1px solid aquamarine;
+    display: inline-block;
+    margin-top:10px ;
+    background-color: aquamarine;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: -1px -1px 10px mintcream;
+}
+
+.media img{
+    height: 30px;
+    width: 35px;
+    margin-left:4px ;
+    margin-top:4px ;
+}
+
+.media:hover{
+    transform: scale(0.9);
+}
+
+.facebook{
+    margin-left: 110px;
+
+}
+
+.aboutme{
+    height: 600px;
+    width: 1430px;
+    border-radius: 45px;
+    border: 1px solid mintcream;
+    margin-top: 330px;
+    box-shadow: 10px -10px 5px aquamarine;
+}
+
+.aboutme h1{
+    height: 40px;
+    width: 190px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: aquamarine;
+    box-shadow: 10px -10px 25px mintcream;
+    margin-left: 50%;
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: 'Permanent Marker',cursive;
+    color: rgb(154, 68, 235);
+    text-align: center;
+    line-height: -8px;
+}
+
+.aboutme h5{
+    color: white;
+}
+
+.aboutme h1:hover{
+    transform: scale(1.2);
+    color: yellow;
+}
+
+.aboutme p{
+    color:#affcaf;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.aboutme p::first-letter{
+    font-size: 30px;
+    color: azure;
+}
+
+.aboutme a:link{
+    color: aquamarine;
+}
+
+.aboutme a:visited{
+    color: aquamarine;
+}
+.aboutme a{
+    text-decoration: dotted;
+    
+}
+
+.aboutme a:hover{
+    transform: scale();
+}
+
+.Skill{
+    height: 400px;
+    width: 1430px;
+    border-radius: 45px;
+    border: 1px solid mintcream;
+    margin-top: 50px;
+    box-shadow: 10px -10px 5px rgb(242, 4, 214);
+}
+
+.Skill h1{
+    height: 40px;
+    width: 190px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: rgb(233, 106, 9);
+    box-shadow: 10px -10px 25px rgb(228, 195, 7);
+    margin-left: 50%;
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(154, 68, 235);
+    text-align: center;
+    line-height: -8px;
+}
+
+.Skill h1:hover{
+    transform: scale(1.2);
+    color: rgb(8, 35, 237);
+}
+
+.SkillBox{
+    height: 130px;
+    width: 130px;
+    border: 1px solid none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top:80px;
+    box-shadow: 10px -10px 25px rgb(242, 4, 214);
+}
+
+.SkillBox img:hover{
+    transform: scale(1.2);
+}
+
+.c{
+    margin-left: 20px;
+}
+
+.vscode{
+    height: 100px;
+    width: 100px;
+}
+
+.project{
+    height: 800px;
+    width: 1430px;
+    border-radius: 45px;
+    border: 1px solid mintcream;
+    margin-top: 50px;
+    box-shadow: 10px -10px 25px rgb(60, 242, 4);
+    
+}
+
+.project h1{
+    height: 40px;
+    width: 190px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: aquamarine;
+    box-shadow: 10px -10px 25px rgb(8, 236, 122);
+    margin-left: 50%;
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(154, 68, 235);
+    text-align: center;
+    line-height: -8px;
+    
+}
+
+.project h1:hover{
+    transform: scale(1.2);
+    color: magenta;
+}
+
+.prj1{
+    height:300px;
+    width:200px;
+    border: 1px solid white;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 10px -10px 25px rgb(8, 236, 122);
+    display: inline-block;
+}
+
+.projectbox img{
+    height: 300px;
+    width: 200px;
+}
+
+.projectbox:hover{
+    transform: scale(0.9);
+
+}
+
+.project p::first-letter{
+    font-size: 30px;
+}
+
+.prjdtls{
+    height: 150px;
+    width: 1100px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: yellow;
+    line-height: 20px;
+    
+
+}
+
+.dtls{
+    line-height: 30px;
+}
+
+.prjdtls b{
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+.prjdtls h3{
+    color: aqua;
+}
+
+.prj2{
+    height:300px;
+    width:200px;
+    border: 1px solid white;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 10px -10px 25px rgb(8, 236, 122);
+    display: inline-block;
+    overflow: hidden;
+}
+
+.prjdtls2{
+    height: 150px;
+    width: 1100px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: yellow;
+    line-height: 20px;
+    
+
+}
+
+.prj2 img{
+    height: 300px;
+    width: 200px;
+
+}
+
+.prjdtls2 b{
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+.prjdtls2 h3{
+    color: aqua;
+}
+
+
+.contact{
+    height: 400px;
+    width: 1430px;
+    border-radius: 45px;
+    border: 1px solid mintcream;
+    margin-top: 50px;
+    box-shadow: 10px -10px 25px rgb(68, 4, 242);
+}
+
+.contact h1{
+    height: 40px;
+    width: 190px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: rgb(255, 127, 234);
+    box-shadow: 10px -10px 25px rgb(58, 6, 216);
+    margin-left: 610px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(154, 68, 235);
+    text-align: center;
+    line-height: -8px;
+}
+
+.contact h1:hover{
+    transform: scale(1.2);
+    color: slategray;
+}
+
+.connect{
+    height: 200px;
+    width: 300px;
+    border: 1px solid midnightblue;
+    border-radius: 95px;
+    box-shadow: 10px -10px 25px midnightblue;
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 40px;
+    background-color:#fff;
+    opacity: .8;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.mail{
+    margin-top: 0px;
+   
+}
+
+.connect:hover{
+    transform: scale(0.98);
+    font-style: oblique;
+}
+.contact img{
+    height: 100px;
+    width: 100px;
+    margin-left: 90px;
+    margin-top:40px; 
+}
+
+
+.contact img:hover{
+    transform: scale(0.9);
+    
+}
+
+.footer{
+    height: 110px;
+    width: 1445px;
+    border-radius: 15px;
+    background-color: aqua;
+    border: 1px solid mintcream;
+    margin-top: 30px;
+    box-shadow: 10px -10px 25px rgb(62, 211, 16);
+    text-align: center;
+    line-height:20px ;
+}
+
+.boxm{
+    margin-top: -40px;
+    margin-left: -90px;
+}
+
+.footer i{
+    margin-top: 5%;
+}
+
+.mediaf{
+    height: 40px;
+    width: 40px;
+    border: 1px solid aquamarine;
+    display: inline-block;
+    margin-top:50px ;
+    background-color: aquamarine;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: -1px -1px 10px mintcream;
+}
+
+.mediaf img{
+    height: 30px;
+    width: 35px;
+    margin-left:4px ;
+    margin-top:px ;
+}
+
+.mediaf:hover{
+    transform: scale(0.9);
+}
+
+.facebok{
+    margin-left: 110px;
+
+}
+
+.up{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-top: -30px;
+    margin-left: 20px;
+    overflow: hidden;
+    animation-name: bling;
+    animation-duration:1s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.up img{
+    height: 50px;
+    width: 50px;
+    margin-left: -5px;
+    margin-top: -5px;
+    
+}
+
+@keyframes bling{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1)
+    }
+}
+
